@@ -1,0 +1,29 @@
+{
+  "name": "mosaic",
+  "version": "0.0.0",
+  "description": "Listen.",
+  "main": "server.js",
+  "scripts": {
+    "postinstall": "gulp build",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mskalandunas/mosaic.git"
+  },
+  "author": "Mike Skalandunas <mskalandunas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mskalandunas/mosaic/issues"
+  },
+  "homepage": "https://github.com/mskalandunas/mosaic#readme",
+  "dependencies": {
+    "babel-core": "^6.16.0",
+    "babel-preset-latest": "^6.22.0",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-concat-css": "^2.3.0",
+    "gulp-cssnano": "^2.1.2",
+    "webpack-stream": "^3.2.0"
+  }
+}
