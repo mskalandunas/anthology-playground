@@ -63,10 +63,9 @@ section.page h2 {
 section.page hr {
   margin-top: 10vh;
 }
-/*
- <footer class="page-footer">
-    <span class="horizontal-line"></span>
-    <span class="page-number">1</span>
-    <span class="horizontal-line"></span>
-  </footer>
-*/
+
+@media (max-width: 550px) {
+  p.text {
+    font-size: 1em;
+  }
+}
