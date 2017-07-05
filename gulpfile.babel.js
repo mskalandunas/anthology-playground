@@ -9,8 +9,6 @@ const staticFiles = [
   'src/**/*.html',
   'src/**/*.ico',
   'src/**/*.jpg',
-  'src/**/*.mp3',
-  'src/**/*.wav',
   'src/**/*.svg',
   'src/**/*.png',
   'src/**/*.pdf'
